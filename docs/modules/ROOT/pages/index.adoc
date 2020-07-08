@@ -1,0 +1,3 @@
+= Component StorageClass
+
+{doctitle} is a Commodore Component to manage https://kubernetes.io/docs/concepts/storage/storage-classes[StorageClass] objects on a cluster.

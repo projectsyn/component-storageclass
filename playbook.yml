@@ -1,0 +1,36 @@
+site:
+  title: StorageClass
+  url: https://syn.tools/
+  start_page: storage-class::index.adoc
+  robots: disallow
+content:
+  sources:
+    - url: .
+      branches: HEAD
+      start_path: docs
+      edit_url: 'https://github.com/projectsyn/component-storage-class/edit/master/{path}'
+ui:
+  bundle:
+    url: https://github.com/projectsyn/antora-ui-default/releases/download/1.3/ui-bundle.zip
+    snapshot: false
+asciidoc:
+  attributes:
+    toc: 'auto'
+    toc-title: ''
+    toclevels: 2
+    hide-uri-scheme: ''
+    experimental: ''
+    stem: ''
+    icons: font
+    kroki-server-url: https://vshn-kroki.appuioapp.ch
+    kroki-fetch-diagram: ''
+  extensions:
+    - asciidoctor-kroki
+output:
+  destinations:
+    - provider: fs
+      path: ./_public
+      clean: true
+    - provider: archive
+      path: ./_archive/site.zip
+      clean: true
