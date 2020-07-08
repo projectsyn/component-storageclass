@@ -1,6 +1,6 @@
 parameters:
-  storage_class:
+  storageclass:
     defaults:
       volumeBindingMode: WaitForFirstConsumer
       reclaimPolicy: Delete
-    storageClasses: {}
+    classes: {}

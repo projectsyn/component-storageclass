@@ -2,10 +2,10 @@ parameters:
   kapitan:
     compile:
       - input_paths:
-          - storage-class/component/app.jsonnet
+          - storageclass/component/app.jsonnet
         input_type: jsonnet
         output_path: apps/
       - input_paths:
-          - storage-class/component/main.jsonnet
+          - storageclass/component/main.jsonnet
         input_type: jsonnet
-        output_path: storage-class/
+        output_path: storageclass/
