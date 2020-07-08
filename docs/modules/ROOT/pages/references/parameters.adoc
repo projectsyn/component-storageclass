@@ -1,0 +1,53 @@
+= Parameters
+
+The parent key for all of the following parameters is `storage_class`.
+
+
+== `defaultClass`
+
+[horizontal]
+type:: string
+default:: undefined
+
+The name of the StorageClass which should be annotated as the https://kubernetes.io/docs/tasks/administer-cluster/change-default-storage-class[default StorageClass].
+The provided helper library makes sure that the StorageClass with this name is annotated with `storageclass.kubernetes.io/is-default-class=true`.
+
+
+== `defaults`
+
+[horizontal]
+type:: dictionary
+default::
+[source,yaml]
+----
+volumeBindingMode: WaitForFirstConsumer
+reclaimPolicy: Delete
+----
+
+Defaults to be set on StorageClass objects.
+This dictionary can contain any valid https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#storageclass-v1-storage-k8s-io[StorageClass fields].
+
+
+== `storageClasses`
+
+[horizontal]
+type:: dictionary
+default:: undefined
+
+A dictionary holding the https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#storageclass-v1-storage-k8s-io[StorageClass fields].
+The keys of the dict are used as names for the StorageClass objects.
+
+
+== Example
+
+[source,yaml]
+----
+defaults:
+  allowVolumeExpansion: true
+storageClasses:
+  standard:
+    parameters:
+      replication-type: none
+      type: pd-standard
+    provisioner: kubernetes.io/gce-pd
+----
