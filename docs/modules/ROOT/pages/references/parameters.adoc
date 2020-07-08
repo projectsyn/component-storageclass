@@ -1,6 +1,6 @@
 = Parameters
 
-The parent key for all of the following parameters is `storage_class`.
+The parent key for all of the following parameters is `storageclass`.
 
 
 == `defaultClass`
@@ -28,7 +28,7 @@ Defaults to be set on StorageClass objects.
 This dictionary can contain any valid https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#storageclass-v1-storage-k8s-io[StorageClass fields].
 
 
-== `storageClasses`
+== `classes`
 
 [horizontal]
 type:: dictionary
@@ -44,7 +44,7 @@ The keys of the dict are used as names for the StorageClass objects.
 ----
 defaults:
   allowVolumeExpansion: true
-storageClasses:
+classes:
   standard:
     parameters:
       replication-type: none

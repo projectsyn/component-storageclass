@@ -9,5 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial implementation ([#1])
 
-[Unreleased]: https://github.com/projectsyn/component-storage-class/compare/76db758a57b9dc33b95abf0a1bd7a21ce1ac185a...HEAD
-[#1]: https://github.com/projectsyn/component-storage-class/pull/1
+### Changed
+
+- Component name ([#2])
+
+[Unreleased]: https://github.com/projectsyn/component-storageclass/compare/76db758a57b9dc33b95abf0a1bd7a21ce1ac185a...HEAD
+[#1]: https://github.com/projectsyn/component-storageclass/pull/1
+[#2]: https://github.com/projectsyn/component-storageclass/pull/2

@@ -1,7 +1,7 @@
 local argocd = import 'lib/argocd.libjsonnet';
 
-local app = argocd.App('storage-class', 'syn');
+local app = argocd.App('storageclass', 'syn');
 
 {
-  'storage-class': app,
+  storageclass: app,
 }

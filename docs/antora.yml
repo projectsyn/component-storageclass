@@ -1,4 +1,4 @@
-name: storage-class
+name: storageclass
 title: StorageClass
 version: master
 start_page: ROOT:index.adoc
