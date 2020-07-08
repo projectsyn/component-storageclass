@@ -13,6 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Component name ([#2])
 
+### Fixed
+
+- Keep the empty manifest directory ([#3])
+
 [Unreleased]: https://github.com/projectsyn/component-storageclass/compare/76db758a57b9dc33b95abf0a1bd7a21ce1ac185a...HEAD
 [#1]: https://github.com/projectsyn/component-storageclass/pull/1
 [#2]: https://github.com/projectsyn/component-storageclass/pull/2
+[#3]: https://github.com/projectsyn/component-storageclass/pull/3
