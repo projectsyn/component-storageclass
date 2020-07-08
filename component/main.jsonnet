@@ -9,4 +9,6 @@ local params = inv.parameters.storageclass;
   [name]:
     sc.storageClass(name) + params.classes[name]
   for name in std.objectFields(params.classes)
+} + {
+  [if std.length(params.classes) == 0 then '.gitkeep']: {},
 }
