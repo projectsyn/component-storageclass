@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Component name ([#2])
 - Disable Kapitan plugin ([#4])
+- Non-default StorageClasses have their "is-default-class" annotation removed ([#7])
 
 ### Fixed
 
@@ -25,3 +26,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#3]: https://github.com/projectsyn/component-storageclass/pull/3
 [#4]: https://github.com/projectsyn/component-storageclass/pull/4
 [#6]: https://github.com/projectsyn/component-storageclass/pull/6
+[#7]: https://github.com/projectsyn/component-storageclass/pull/7
