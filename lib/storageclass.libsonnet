@@ -20,7 +20,7 @@ local params = inv.parameters.storageclass;
 local storageClass(name) = kube._Object('storage.k8s.io/v1', 'StorageClass', name) {
   metadata+: {
     annotations+: {
-      [if params.defaultClass == name then 'storageclass.kubernetes.io/is-default-class']: 'true',
+      'storageclass.kubernetes.io/is-default-class': if params.defaultClass == name then 'true' else null,
     },
   },
 } + params.defaults;
