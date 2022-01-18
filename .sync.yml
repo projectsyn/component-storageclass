@@ -1,0 +1,6 @@
+:global:
+  componentName: storageclass
+
+docs/antora.yml:
+  name: storageclass
+  title: StorageClass
