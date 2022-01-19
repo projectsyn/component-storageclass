@@ -1,0 +1,20 @@
+#
+# File managed by ModuleSync - Do Not Edit
+#
+# Additional entries can be added to `.sync.yml` in '.gitignore.additionalEntries'
+#
+
+# Commodore
+.cache/
+helmcharts/
+manifests/
+vendor/
+jsonnetfile.lock.json
+crds/
+compiled/
+
+# Antora
+_archive/
+_public/
+
+# Additional entries

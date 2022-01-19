@@ -1,3 +1,7 @@
+#
+# File managed by ModuleSync - Do Not Edit
+#
+
 extends: default
 
 rules:
@@ -5,3 +9,10 @@ rules:
   line-length:
     max: 80
     level: warning
+
+ignore: |
+  dependencies/
+  helmcharts/
+  manifests/
+  vendor/
+  compiled/
