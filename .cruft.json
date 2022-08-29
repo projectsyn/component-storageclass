@@ -1,0 +1,21 @@
+{
+  "template": "https://github.com/projectsyn/commodore-component-template.git",
+  "commit": "e6c4fd69190db1ad12e941d578b9423d0e2f993c",
+  "checkout": "main",
+  "context": {
+    "cookiecutter": {
+      "name": "StorageClass",
+      "slug": "storageclass",
+      "parameter_key": "storageclass",
+      "test_cases": "defaults",
+      "add_golden": "n",
+      "add_matrix": "n",
+      "add_go_unit": "n",
+      "github_owner": "projectsyn",
+      "github_name": "component-storageclass",
+      "github_url": "https://github.com/projectsyn/component-storageclass",
+      "_template": "https://github.com/projectsyn/commodore-component-template.git"
+    }
+  },
+  "directory": null
+}
