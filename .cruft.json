@@ -14,7 +14,11 @@
       "github_owner": "projectsyn",
       "github_name": "component-storageclass",
       "github_url": "https://github.com/projectsyn/component-storageclass",
-      "_template": "https://github.com/projectsyn/commodore-component-template.git"
+      "_template": "https://github.com/projectsyn/commodore-component-template.git",
+      "add_lib": "y",
+      "add_pp": "n",
+      "copyright_holder": "VSHN AG <info@vshn.ch>",
+      "copyright_year": "2021"
     }
   },
   "directory": null
