@@ -4,6 +4,9 @@
     ":gitSignOff",
     ":disableDependencyDashboard"
   ],
+  "ignorePaths": [
+    ".github/**"
+  ],
   "labels": [
     "dependency"
   ]
