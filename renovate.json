@@ -9,5 +9,6 @@
   ],
   "labels": [
     "dependency"
-  ]
+  ],
+  "separateMinorPatch": true
 }
