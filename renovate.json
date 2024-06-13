@@ -13,13 +13,16 @@
   "separateMinorPatch": true,
   "packageRules": [
     {
-      "matchUpdateTypes": ["patch"],
+      "matchUpdateTypes": [
+        "patch"
+      ],
       "matchCurrentVersion": "!/^v?0\\./",
       "automerge": true,
       "platformAutomerge": false,
       "labels": [
         "dependency",
-        "automerge"
+        "automerge",
+        "bump:patch"
       ]
     }
   ]
