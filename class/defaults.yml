@@ -1,5 +1,7 @@
 parameters:
   storageclass:
+    =_metadata:
+      multi_tenant: true
     defaults:
       volumeBindingMode: WaitForFirstConsumer
       reclaimPolicy: Delete
